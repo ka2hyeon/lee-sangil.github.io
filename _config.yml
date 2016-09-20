@@ -78,23 +78,23 @@ analytics:
 # Site Author
 author:
   name             : "Julian Straub"
-  avatar           : "bio-photo.jpg"
+  avatar           : "JulianStraub_csail_S.jpg"
   bio              : "developing 3D perception for computers"
-  location         : ""
-  email            :
-  uri              :
+  location         : "MIT"
+  email            : "jstraub@csail.mit.edu"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
-  facebook         :
+  flickr           : ""
+  facebook         : 
   foursquare       :
-  github           :
-  google_plus      :
+  github           : "https://github.com/jstraub"
+  google_plus      : ""
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "http://www.linkedin.com/pub/julian-straub/29/700/56b/en"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -104,7 +104,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : ""
 
 
 # Reading Files
