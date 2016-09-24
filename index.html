@@ -1,25 +1,23 @@
 ---
-layout: archive
+layout: splash
 author_profile: true
+header:
+  overlay_image: knoobot_rightBehind.jpg
 ---
 
 {% include base_path %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<center> Julian Straub </center>
 
-{% for post in site.categories.blog %}
-	{% include archive-single.html %}
+<center>
+{% for stat in site.data.resume_stats.stats %}
+{{ stat.number }} {{ stat.type }} - 
 {% endfor %}
+</center>
 
-
-<!--
-{% for post in paginator.posts %}
-  {% if post.category == "blog" %}
-    {% include archive-single.html %}
-  {% endif %}
+<ul> 
+{% for stat in site.data.resume_stats.stats %}
+<li>{{ stat.number }} {{ stat.type }}</li>
 {% endfor %}
-
-{% include paginator.html %}
---!>
-
+</ul> 
 

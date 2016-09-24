@@ -1,0 +1,11 @@
+stats:
+  - type:   "Universities"
+    number: "3"
+  - type:   "Publications"
+    number: "4 + 2 + 1"
+  - type:   "Scholarships"
+    number: "x"
+  - type:   "Lines of public Code"
+    number: "x"
+  - type:   "Languages"
+    number: "2 + 7"
