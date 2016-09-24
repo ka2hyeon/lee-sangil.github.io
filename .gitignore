@@ -4,6 +4,7 @@
 .jekyll-metadata
 .sass-cache
 *~
+*swp
 _asset_bundler_cache
 _site
 codekit-config.json
