@@ -1,7 +1,8 @@
 # main links links
 main:
   - title: "Blog"
-    url: /
+    url: /_pages/blog/index.html
 
   - title: "Publications"
-    url: /
+    url: /_pages/pub/index.html
+
