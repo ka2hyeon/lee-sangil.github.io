@@ -18,6 +18,8 @@ feature_row_robots:
     image_path: MIT_dome.jpg
     alt: "MIT"
 ---
+{% include base_path %}
+
 Portfolio
 
 {% include feature_row id="feature_row_robots" caption="This is a sample gallery to go along with this case study." %}

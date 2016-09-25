@@ -25,6 +25,8 @@ gallery_portrait:
     alt: "Self through the Machine"
 ---
 
+{% include base_path %}
+
 ## Landscape
 
 {% include gallery id="gallery_landscape" caption="" %}

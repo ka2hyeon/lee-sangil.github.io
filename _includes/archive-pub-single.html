@@ -32,9 +32,6 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{post.conference}} {{post.date | date: "%Y"}}: {{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.excerpt %}
-    <p class="pub__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 500 }}</p>
-    {% endif %}
     <p class="pub__item-links" itemprop="description">
     {% for link in post.links %}
       {% if link.name %}
@@ -42,5 +39,11 @@
       {% endif %}
     {% endfor %}
     </p>
+    {% if post.excerpt %}
+    <p class="pub__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 500 }}</p>
+    {% endif %}
+    {% if post.bibtex%}
+		<div class="highlighter-rouge"><pre class="highlight"><code>{{ post.bibtex }}</code></pre> </div>
+    {% endif %}
   </article>
 </div>
