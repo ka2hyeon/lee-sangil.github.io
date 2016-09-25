@@ -1,8 +1,8 @@
 ---
 layout: single
-excerpt: "Recap of my first year at MIT and some lessons learned."
+title: My first year of graduate studies at MIT
 header:
-  image: knoobot_rightBehind.jpg
+  image: MIT_dome.jpg
 ---
 Wow its already 3 months since my second year at MIT started – time is
 flying (originally when I started writing the article I had 3 weeks
@@ -78,6 +78,7 @@ these events come together, to work with a motivated team and to see
 people enjoy the events.
 
 ## My main takeaways
+
 ### Research:
 
 * the word “research” makes a lot of sense: you have an idea, you search whether someone has done that before and then you re-search since it has almost surely been done before…

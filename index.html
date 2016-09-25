@@ -3,6 +3,21 @@ layout: splash
 author_profile: true
 header:
   overlay_image: knoobot_rightBehind.jpg
+excerpt: "developing artificial 3D perception"
+gallery:
+  - url: MIT_dome.jpg
+    image_path: MIT_dome.jpg
+    alt: "MIT"
+  - url: MIT_dome.jpg
+    image_path: MIT_dome.jpg
+    alt: "MIT"
+  - url: MIT_dome.jpg
+    image_path: MIT_dome.jpg
+    alt: "MIT"
+gallery2:
+  - url: MIT_dome.jpg
+    image_path: MIT_dome.jpg
+    alt: "MIT"
 ---
 
 {% include base_path %}
@@ -14,6 +29,10 @@ header:
 {{ stat.number }} {{ stat.type }} - 
 {% endfor %}
 </center>
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
+
+{% include gallery id="gallery2" caption="This is a sample gallery to go along with this case study." %}
 
 <ul> 
 {% for stat in site.data.resume_stats.stats %}

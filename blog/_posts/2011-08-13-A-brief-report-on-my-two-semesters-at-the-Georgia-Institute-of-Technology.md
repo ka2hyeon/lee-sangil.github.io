@@ -1,8 +1,8 @@
 ---
 layout: single
-excerpt: "Recap of my first year at MIT and some lessons learned."
+title: A brief report on my year at the Georgia Institute of Technology
 header:
-  image: knoobot_rightBehind.jpg
+  image: gatech.jpg
 ---
 For my Atlantis scholarship I wrote a short resume on my two semesters
 at Georgia Tech:

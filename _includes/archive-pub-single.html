@@ -32,9 +32,6 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{post.conference}} {{post.date | date: "%Y"}}: {{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
     {% if post.excerpt %}
     <p class="pub__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 500 }}</p>
     {% endif %}
