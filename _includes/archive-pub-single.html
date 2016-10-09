@@ -34,8 +34,10 @@
     </h2>
     <p class="pub__item-links" itemprop="description">
     {% for link in post.links %}
-      {% if link.name %}
+      {% if link.name and link.link contains "http" %}
         [<a href="{{ link.link }}">{{ link.name }}</a>]
+      {% else %}
+        [<a href="{{base_path}}{{ link.link }}">{{ link.name }}</a>]
       {% endif %}
     {% endfor %}
     </p>

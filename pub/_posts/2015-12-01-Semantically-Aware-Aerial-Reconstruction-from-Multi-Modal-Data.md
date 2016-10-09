@@ -11,7 +11,7 @@ links:
    link: http://people.csail.mit.edu/rcabezas/pubs/cabezas15_semantics_sup.pdf
    name: "Supplement"
  - bibtex: 
-   link: Semantically-Aware-Aerial-Reconstruction-from-Multi-Modal-Data/#bibtex
+   link: "/pub/Semantically-Aware-Aerial-Reconstruction-from-Multi-Modal-Data/index.html#bibtex"
    name: "Bib"
  - video: 
    link: http://groups.csail.mit.edu/vision/sli/projects/aerial_semantics/spotlight_video.mp4
