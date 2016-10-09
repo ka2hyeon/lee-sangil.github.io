@@ -12,7 +12,7 @@ links:
    name: "Supplement"
  - bibtex: 
    link: "/pub/Semantically-Aware-Aerial-Reconstruction-from-Multi-Modal-Data/index.html#bibtex"
-   name: "Bib"
+   name: "Bibtex"
  - video: 
    link: http://groups.csail.mit.edu/vision/sli/projects/aerial_semantics/spotlight_video.mp4
    name: "Video"

@@ -11,8 +11,8 @@ links:
    link: http://www.jstraub.de/download/straub2014mmf_supplemental.pdf
    name: "Supplement"
  - bibtex: 
-   link: http://www.jstraub.de/wp-publications/straub2014mmf/
-   name: "Bib"
+   link: "/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/index.html#bibtex"
+   name: "Bibtex"
  - video: 
    link: https://www.youtube.com/watch?v=D9dz7YY7K4E
    name: "Video"
@@ -33,3 +33,13 @@ excerpt: "Man-made objects and buildings exhibit a clear structure in the form o
 
 Man-made objects and buildings exhibit a clear structure in the form of orthogonal and parallel planes. This observation, commonly referred to as the Manhattan-world (MW) model, has been widely exploited in computer vision and robotics. At both larger and smaller scales, the scale of a city, indoor scenes or smaller objects, a more flexible model is merited. Here, we propose a novel probabilistic model that describes scenes as mixtures of Manhattan Frames (MF) - sets of orthogonal and parallel planes.
 
+## Bibtex <a id="bibtex"></a>
+```
+@inproceedings{straub2014mmf,
+  author = {Straub, Julian and Rosman, Guy and Freifeld, Oren and Leonard, John J. and Fisher III, John W.},
+  title = {A Mixture of Manhattan Frames: Beyond the Manhattan World},
+  year = {2014},
+  booktitle ={CVPR},
+  url ={http://www.jstraub.de/download/straub2014mmf.pdf}
+}
+```
