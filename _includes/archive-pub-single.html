@@ -36,6 +36,8 @@
     {% for link in post.links %}
       {% if link.name and link.link contains "http" %}
         [<a href="{{ link.link }}">{{ link.name }}</a>]
+      {% elsif link.name contains "Bibtex"  %}
+        [<a href="{{base_path}}{{ post.url }}index.html#bibtex">{{ link.name }}</a>]
       {% else %}
         [<a href="{{base_path}}{{ link.link }}">{{ link.name }}</a>]
       {% endif %}

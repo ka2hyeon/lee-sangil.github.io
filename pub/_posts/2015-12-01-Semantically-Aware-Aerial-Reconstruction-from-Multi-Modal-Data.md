@@ -1,5 +1,4 @@
 ---
-layout: single
 header:
   image: MIT_dome.jpg
 conference: ICCV
@@ -11,7 +10,6 @@ links:
    link: http://people.csail.mit.edu/rcabezas/pubs/cabezas15_semantics_sup.pdf
    name: "Supplement"
  - bibtex: 
-   link: "/pub/Semantically-Aware-Aerial-Reconstruction-from-Multi-Modal-Data/index.html#bibtex"
    name: "Bibtex"
  - video: 
    link: http://groups.csail.mit.edu/vision/sli/projects/aerial_semantics/spotlight_video.mp4

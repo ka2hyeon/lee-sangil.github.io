@@ -5,14 +5,14 @@ header:
 conference: ICCV
 links: 
  - paper: 
-   link: http://people.csail.mit.edu/rcabezas/pubs/cabezas15_semantics.pdf
+   link: 
    name: "Paper"
  - supplement: 
    link: 
    name: "Supplement"
  - bibtex: 
-   link: 
-   name: "Bib"
+   link: /pub//index.html#bibtex
+   name: "Bibtex"
  - video: 
    link: 
    name: "Video"
@@ -28,12 +28,8 @@ links:
  - dataset: 
    link: 
    name: "Dataset"
-excerpt: " We propose a probabilistic generative model for inferring semantically-informed aerial reconstructions from multi-modal data within a consistent mathematical framework. The approach, called Semantically Aware Aerial Reconstruction (SAAR), not only exploits inferred scene geometry, appearance, and semantic observations to obtain a meaningful categorization of the data, but also extends previously proposed methods by imposing structure on the prior over geometry, appearance, and semantic labels."
 ---
-We propose a probabilistic generative model for inferring semantically-informed
-aerial reconstructions from multi-modal data within a consistent mathematical
-framework. The approach, called Semantically Aware Aerial Reconstruction
-(SAAR), not only exploits inferred scene geometry, appearance, and semantic
-observations to obtain a meaningful categorization of the data, but also
-extends previously proposed methods by imposing structure on the prior over
-geometry, appearance, and semantic labels.
+
+## Bibtex <a id="bibtex"></a>
+```
+```
