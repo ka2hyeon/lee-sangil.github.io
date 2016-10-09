@@ -1,4 +1,5 @@
 ---
+title: "A Mixture of Manhattan Frames: Beyond the Manhattan World"
 header:
   teaser: tn_MMF.png
 conference: CVPR

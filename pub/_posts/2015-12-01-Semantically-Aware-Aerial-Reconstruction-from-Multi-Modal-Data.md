@@ -1,4 +1,5 @@
 ---
+title: Semantically-Aware Aerial Reconstruction from Multi-Modal Data
 header:
   image: MIT_dome.jpg
 conference: ICCV
@@ -28,8 +29,7 @@ geometry, appearance, and semantic labels.
 @inproceedings{Cabezas2015semantics,
   author={Cabezas, Randi and Straub, Julian and Fisher III, John W.}, 
   booktitle = {International Conference on Computer Vision (ICCV)},
-  title={{Semantically-Aware Aerial Reconstruction from
-    Multi-Modal Data}},
+  title={{Semantically-Aware Aerial Reconstruction from Multi-Modal Data}},
   year={2015},
   month = {December},
   url = {http://people.csail.mit.edu/rcabezas/pubs/cabezas15_semantics.pdf}

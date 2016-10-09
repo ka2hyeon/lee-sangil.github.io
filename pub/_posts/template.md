@@ -1,5 +1,5 @@
 ---
-layout: default
+title: 
 header:
   teaser: tn_MMF.png
 conference: ICCV

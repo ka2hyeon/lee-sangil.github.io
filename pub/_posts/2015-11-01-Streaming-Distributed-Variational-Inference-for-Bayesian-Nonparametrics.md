@@ -1,4 +1,5 @@
 ---
+title: Streaming, Distributed Variational Inference for Bayesian Nonparametrics
 header:
   teaser:
 conference: NIPS
