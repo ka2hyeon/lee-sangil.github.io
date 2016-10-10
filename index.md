@@ -1,8 +1,8 @@
 ---
-layout: splash
+layout: single
 author_profile: true
 header:
-  overlay_image: knoobot_rightBehind.jpg
+  overlay_image: robots/knoobot_rightBehind.jpg
 excerpt: "developing artificial 3D perception"
 ---
 In fall 2012, I joined [MIT](http://www.mit.edu/) to pursue a PhD in
