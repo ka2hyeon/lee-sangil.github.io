@@ -23,6 +23,7 @@
     </h2>
     {% if teaser %}
       <div class="pub__item-teaser_leftOfText">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
@@ -30,6 +31,7 @@
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
           alt="">
+        </a>
       </div>
     {% endif %}
     <p class="pub__item-links" itemprop="description">

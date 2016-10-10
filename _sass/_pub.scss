@@ -79,22 +79,19 @@
 .pub__item-teaser_leftOfText {
   float: left;
   border-radius: $border-radius;
-  overflow: hidden;
+  //overflow: hidden;
+  width: 140px;
   img {
-    max-width: 200px;
-    margin-top:    10px;
-    margin-right:  10px;
-    margin-bottom: 0px;
-    margin-left:   0px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: block;
   }
 }
 
 @include breakpoint($small) {
   .pub__item-teaser_leftOfText {
-    max-height: 120px;
-    img {
-      max-width: 120px;
-    }
+    width: 140px;
   }
 }
 
@@ -102,16 +99,18 @@
   margin-left: 0; /* reset before mixin does its thing*/
   margin-right: 0; /* reset before mixin does its thing*/
   .pub__item-teaser_leftOfText {
-    max-height: 200px;
-    img {
-      max-width: 200px;
-    }
+    width: 200px;
   }
 }
 
 .pub__item:hover {
   .pub__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
+  }
+  .pub__item-teaser_leftOfText {
+    img {
+      box-shadow: 0 0 10px rgba(#000, 0.25);
+    }
   }
 
   .pub__item-title {
