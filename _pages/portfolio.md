@@ -1,7 +1,8 @@
 ---
 layout: splash
 header:
-  overlay_image: MIT_dome.jpg
+  overlay_image: robots/holomove_topOpened_S.jpg
+excerpt: "Portfolio"
 feature_row_robots:
   - url: /blog/Kno0Bot-for-Roboking-2006/index.html
     image_path: robots/knoobot_rightBehind_S.jpg
