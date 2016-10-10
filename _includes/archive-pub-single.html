@@ -14,8 +14,15 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="pub__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="pub__item-teaser">
+    <h2 class="pub__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{post.conference}} {{post.date | date: "%Y"}}: {{ title }}</a>
+      {% endif %}
+    </h2>
+    {% if teaser %}
+      <div class="pub__item-teaser_leftOfText">
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
@@ -25,13 +32,6 @@
           alt="">
       </div>
     {% endif %}
-    <h2 class="pub__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{post.conference}} {{post.date | date: "%Y"}}: {{ title }}</a>
-      {% endif %}
-    </h2>
     <p class="pub__item-links" itemprop="description">
     {% for link in post.links %}
       {% if link.name and link.link contains "http" %}
@@ -45,9 +45,6 @@
     </p>
     {% if post.excerpt %}
     <p class="pub__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 500 }}</p>
-    {% endif %}
-    {% if post.bibtex%}
-		<div class="highlighter-rouge"><pre class="highlight"><code>{{ post.bibtex }}</code></pre> </div>
     {% endif %}
   </article>
 </div>

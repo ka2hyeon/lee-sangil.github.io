@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Portfolio"
-    url: /_pages/portfolio/index.html
-
   - title: "Publications"
     url: /_pages/pub/index.html
+
+  - title: "Portfolio"
+    url: /_pages/portfolio/index.html
 
   - title: "Blog"
     url: /_pages/blog/index.html

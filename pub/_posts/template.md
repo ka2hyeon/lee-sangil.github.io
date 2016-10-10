@@ -1,7 +1,7 @@
 ---
 title: 
 header:
-  teaser: tn_MMF.png
+  teaser: /tumbnails/
 conference: ICCV
 links: 
  - paper: 

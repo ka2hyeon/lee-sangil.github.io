@@ -1,7 +1,7 @@
 ---
 title: Semantically-Aware Aerial Reconstruction from Multi-Modal Data
 header:
-  image: MIT_dome.jpg
+  teaser: /tumbnails/saar_tn.jpg
 conference: ICCV
 links: 
  - paper: 
