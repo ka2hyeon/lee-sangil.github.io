@@ -11,7 +11,6 @@ links:
    link: 
    name: "Supplement"
  - bibtex: 
-   link: /pub//index.html#bibtex
    name: "Bibtex"
  - video: 
    link: 
