@@ -69,6 +69,14 @@
   }
 }
 
+.pub__item-links {
+  margin-top: 0;
+  font-size: $type-size-8;
+
+  & + p {
+    text-indent: 0;
+  }
+}
 
 .pub__item-teaser_leftOfText {
   float: left;
