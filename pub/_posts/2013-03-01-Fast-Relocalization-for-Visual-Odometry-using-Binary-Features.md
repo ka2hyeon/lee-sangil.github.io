@@ -28,7 +28,7 @@ Locality Sensitive Hashing.
 @INPROCEEDINGS{straub2013fastRelocalization,
   author = {Julian Straub AND Sebastian Hilsenbeck AND Georg Schroth AND Robert Huitl AND Andreas M{"o}ller AND Eckehard Steinbach},
   title = {Fast Relocalization For Visual Odometry Using Binary Features},
-  booktitle = {{IEEE} International Conference on Image Processing ({ICIP})},
+  booktitle = {IEEE International Conference on Image Processing (ICIP)},
   month = {Sep},
   year = {2013},
   address = {Melbourne, Australia},
