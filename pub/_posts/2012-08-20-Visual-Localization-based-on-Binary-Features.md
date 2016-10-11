@@ -1,7 +1,7 @@
 ---
 title:  Visual Localization based on Binary Features
 header:
-  teaser: /tumbnails/TUMLogo_tn
+  teaser: /tumbnails/TUMLogo_tn.png
 conference: Diploma Thesis
 links: 
  - paper: 

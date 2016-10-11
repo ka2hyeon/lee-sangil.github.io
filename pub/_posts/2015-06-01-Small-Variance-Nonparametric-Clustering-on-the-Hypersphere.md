@@ -41,6 +41,8 @@ mixture. Recognizing the sequential nature of data collection in many
 applications, we extend this algorithm to DDP-vMF-means, which infers
 temporally evolving cluster structure from streaming data.
 
+{% include youtubePlayer.html id=wLP18q80oAE %}
+
 ## Bibtex <a id="bibtex"></a>
 ```
 @inproceedings{ straub2015ddpvmf,
