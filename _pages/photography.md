@@ -1,5 +1,6 @@
 ---
 layout: single
+author_profile: true
 gallery_MIT:
   - url: MIT_dome.jpg
     image_path: MIT_dome.jpg

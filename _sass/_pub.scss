@@ -76,41 +76,9 @@
   }
 }
 
-.pub__item-teaser_leftOfText {
-  float: left;
-  border-radius: $border-radius;
-  //overflow: hidden;
-  width: 140px;
-  img {
-    width: 90%;
-    height: auto;
-    margin: auto;
-    display: block;
-  }
-}
-
-@include breakpoint($small) {
-  .pub__item-teaser_leftOfText {
-    width: 140px;
-  }
-}
-
-@include breakpoint($medium) {
-  margin-left: 0; /* reset before mixin does its thing*/
-  margin-right: 0; /* reset before mixin does its thing*/
-  .pub__item-teaser_leftOfText {
-    width: 200px;
-  }
-}
-
 .pub__item:hover {
   .pub__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
-  }
-  .pub__item-teaser_leftOfText {
-    img {
-      box-shadow: 0 0 10px rgba(#000, 0.25);
-    }
   }
 
   .pub__item-title {
@@ -125,15 +93,15 @@
 
 .list__item {
   @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 0px; //$right-sidebar-width-narrow;
   }
 
   @include breakpoint($large) {
-    padding-right: $right-sidebar-width;
+    padding-right: 0px; //$right-sidebar-width;
   }
 
   @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
+    padding-right: 0px; //$right-sidebar-width-wide;
   }
 
   .page__meta {
