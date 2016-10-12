@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Kno.0Bot for Roboking 2006
+title: Kno.2Bot for Roboking 2006
 header:
   image: robots/kno2bot_top_S.jpg
 ---
