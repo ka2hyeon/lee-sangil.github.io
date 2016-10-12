@@ -24,6 +24,13 @@ observations to obtain a meaningful categorization of the data, but also
 extends previously proposed methods by imposing structure on the prior over
 geometry, appearance, and semantic labels.
 
+<center>
+<video width="560" height="420" controls>
+<source src="http://groups.csail.mit.edu/vision/sli/projects/aerial_semantics/spotlight_video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</center>
+
 ## Bibtex <a id="bibtex"></a>
 ```
 @inproceedings{Cabezas2015semantics,

@@ -29,6 +29,8 @@ Importantly, this rotation estimate acts as a structure compass which
 can be used to estimate the bias of an odometry system, such as an
 inertial measurement unit (IMU), and thus remove its angular drift.
 
+{% include youtubePlayer.html id="5pFEEquUYd8" %}
+
 ## Bibtex <a id="bibtex"></a>
 ```
 @inproceedings{ straub2015rtmf,

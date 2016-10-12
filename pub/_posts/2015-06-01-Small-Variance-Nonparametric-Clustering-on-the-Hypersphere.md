@@ -52,7 +52,7 @@ our experiments focus on 3D data, both algorithms generalize to high
 dimensional directional data such as protein backbone configurations
 and semantic word vectors.
 
-{% include youtubePlayer.html in="wLP18q80oAE" %}
+{% include youtubePlayer.html id="wLP18q80oAE" %}
 
 Man-made environments and objects exhibit clear structural regularities
 such as planar or rounded surfaces. These properties are evident on all
