@@ -12,3 +12,5 @@ main:
   - title: "Photography"
     url: /_pages/photography/index.html
 
+  - title: "MMF Dataset"
+    url: /_pages/nyu-mmf-dataset/index.html
