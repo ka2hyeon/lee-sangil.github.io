@@ -45,10 +45,6 @@ gallery_portrait:
 
 {% include gallery id="gallery_portrait" caption="" %}
 
-## Technology
-
-{% include gallery id="gallery_technology" caption="" %}
-
 ## Around MIT
 
 {% include gallery id="gallery_MIT" caption="" %}
