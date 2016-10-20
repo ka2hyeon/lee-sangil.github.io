@@ -37,5 +37,5 @@ feature_row_robots:
 ---
 {% include base_path %}
 
-{% include feature_row id="feature_row_robots" caption="This is a sample gallery to go along with this case study." %}
+{% include feature_row id="feature_row_robots" caption="Portfolio" %}
 
