@@ -33,6 +33,8 @@ links:
 excerpt: "Based on the small-variance limit of Bayesian nonparametric von-Mises-Fisher (vMF) mixture distributions, we propose two new flexible and efficient k-means-like clustering algorithms for directional data such as surface normals. The first, DP-vMF-means, is a batch clustering algorithm derived from the Dirichlet process (DP) vMF mixture. Recognizing the sequential nature of data collection in many applications, we extend this algorithm to DDP-vMF-means, which infers temporally evolving cluster structure from streaming data."
 ---
 
+{% include base_path %}
+
 Structural regularities in man-made environments reflect in the
 distribution of their surface normals. Describing these surface normal
 distributions is important in many computer vision applications, such

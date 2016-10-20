@@ -20,6 +20,7 @@ links:
    name: "Code"
 excerpt: "Directional data, naturally represented as points on the unit sphere, appear in many applications. We propose a Dirichlet process mixture model of Gaussian distributions in distinct tangent spaces (DP-TGMM) to the sphere and develop an efficient inference algorithm. We demonstrate that, unlike related work, the proposed probabilistic model can represent anisotropic distributions on the sphere while still respecting the underlying geometry and readily extends to high-dimensional data."
 ---
+{% include base_path %}
 
 Directional data, naturally represented as points on the unit sphere,
 appear in many applications. However, unlike the case of Euclidean

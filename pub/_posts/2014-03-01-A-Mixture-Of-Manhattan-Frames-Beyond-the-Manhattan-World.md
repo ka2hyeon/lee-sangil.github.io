@@ -30,6 +30,7 @@ links:
 excerpt: "Man-made objects and buildings exhibit a clear structure in the form of orthogonal and parallel planes. This observation, commonly referred to as the Manhattan-world (MW) model, has been widely exploited in computer vision and robotics. At both larger and smaller scales, the scale of a city, indoor scenes or smaller objects, a more flexible model is merited. Here, we propose a novel probabilistic model that describes scenes as mixtures of Manhattan Frames (MF) - sets of orthogonal and parallel planes."
 ---
 
+{% include base_path %}
 {% include youtubePlayer.html id="D9dz7YY7K4E" %}
 
 Man-made objects and buildings exhibit a clear structure in the form of
@@ -81,7 +82,7 @@ We ran the MMF inference on the full NYU depth dataset V2 [[Silberman
 2012](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)]
 consisting of 1449 RGB-D frames and provide the results as a dataset
 which can be found
-[here](http://people.csail.mit.edu/jstraub/index.php?site=nyu_depth_v2_mmf).
+[here]({{ base_path }}/_pages/nyu-mmf-dataset/).
 
 ## Bibtex <a id="bibtex"></a>
 ```
