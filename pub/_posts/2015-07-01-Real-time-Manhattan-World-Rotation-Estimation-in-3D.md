@@ -19,7 +19,7 @@ links:
    link: https://github.com/jstraub/rtmf
    name: "Code"
  - dataset: 
-   link: http://people.csail.mit.edu/jstraub/index.php?site=nyu_depth_v2_mmf
+   link: /_pages/nyu-mmf-dataset/
    name: "Dataset"
 ---
 We propose three novel algorithms to estimate the full 3D rotation to

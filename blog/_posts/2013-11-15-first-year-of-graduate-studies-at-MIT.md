@@ -81,21 +81,17 @@ people enjoy the events.
 
 ### Research:
 
-* the word “research” makes a lot of sense: you have an idea, you search whether someone has done that before and then you re-search since it has almost surely been done before…
-
+* the word “research” makes a lot of sense: you have an idea, you search whether someone has done that before and then you re-search since it has almost surely been done before...
 * solving problems is easy finding the problem is hard (and frustrating).  
 * theory can be really enjoyable when the other option is to get a visual SLAM (simultaneous localization and mapping) system to run.
 * nothing is more fulfilling, exciting and intense than pursuing your own idea (on the work-side of my life)
 * working for the same deadline as a labmate makes for a great bonding experience
 * running out of coffee two days before the deadline is not good
 * always have some protein bars or a nut mix in your drawer
-* make it easy to buffer intermediate results of long computations to
-* speed up plotting and evaluation of the algorithm
-* post-docs are an awesome resource when it comes to paper writing, code
-* snippets or learning the theory they have specialized in.
+* make it easy to buffer intermediate results of long computations to speed up plotting and evaluation of the algorithm
+* post-docs are an awesome resource when it comes to paper writing, code snippets or learning the theory they have specialized in.
 * write everything down – humans are no Turing machines due to limited memory. Therefore, we should always be writing stuff down onto an external tape.
-* 4 to 5h of quiet time for reflection at the end of a week is very
-* important to integrate new knowledge, collect ideas and plan for the next week
+* 4 to 5h of quiet time for reflection at the end of a week is very important to integrate new knowledge, collect ideas and plan for the next week
 * Python is beautiful and so far the best tool for CS research I have found – get to know numpy, scipy, theano, matplotlib and mayavi and forget matlab.
 * put everything into GIT and commit often – sharing between several computers as well as collaboration with others made easy.
 

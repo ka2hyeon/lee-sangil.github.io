@@ -91,8 +91,7 @@ distributions to achieve integration of directional data into a
 temporally consistent streaming model. Small variance asymptotic
 analysis yields the k-means-like DDP-vMF-means algorithm.
 
-## Nonparametric directional clustering of scenes from the NYU dataset
-with DP-vMF-means
+## Nonparametric directional clustering of scenes from the NYU dataset with DP-vMF-means
 
 ![clustering examples]({{ base_path }}/images/pub/dpvmfmeans/figureNYU_S_cropped.png "clustering examples")
 

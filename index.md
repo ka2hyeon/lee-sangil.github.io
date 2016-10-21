@@ -37,20 +37,19 @@ feature_row_robots:
     title: "Holomove"
     #excerpt: "Holomove has a holonomic drive, designed to allow movement in any direction without having to rotate."
 ---
-In fall 2012, I joined [MIT](http://www.mit.edu/) to pursue a PhD in
-Computer Science. Within the [CS and AI Laboratory (CSAIL)](http://www.csail.mit.edu/), I am
+In fall 2012, I joined [MIT](http://www.mit.edu/) to pursue a **PhD in
+Computer Science**. Within the [CS and AI Laboratory (CSAIL)](http://www.csail.mit.edu/), I am
 working with [John W. Fisher III](http://people.csail.mit.edu/fisher/)
 and [John Leonard](http://groups.csail.mit.edu/marine/wiki/index.php?title=Main_Page#Prof_John_J_Leonard).
 On my way to MIT, I graduated from the [Technische Universität München (TUM)](http://www.tum.de) with a Diplom and the [Georgia Institute of Technology](http://www.gatech.edu/) with a
 M.Sc. 
 
 [comment]: <> (I am very grateful for the many friends, advisors and my family which support me on this journey.)
+[comment]: <> (### developing artificial 3D perception)
 
-### developing artificial 3D perception
-
-My research interests in AI and robotics are in 3D perception [[1], [3], [4], [8], [9], [10]], 
-modeling (directional data [[1], [2]] and Bayesian nonparametrics [[5], [7]]), 
-and inference (sampling [[1], [2], [4]], optimization [[6], [7]] 
+My research interests in AI and robotics are in **3D perception** [[1], [3], [4], [8], [9], [10]], 
+**modeling** (directional data [[1], [2]] and Bayesian nonparametrics [[5], [7]]), 
+and **inference** (sampling [[1], [2], [4]], optimization [[6], [7]] 
 and low-variance asymptotics [[3]]).
 
 {% include feature_row id="feature_row_pub" caption="Featured Publications" %}
@@ -78,7 +77,7 @@ robotics related projects ([KUKAyouBot], [rEIzor]).
 
 [Plexa]: {{ base_path }}/blog/Plexa-my-first-robot/ "Plexa"
 [Plicro]: {{ base_path }}/blog/Plicro/ "Plicro"
-[Roboking2005]: {{ base_path }}/blog/Roboking-2005/ "Roboking 2005"
+[Roboking2005]: {{ base_path }}/blog/Roboking-2005-Robot/ "Roboking 2005"
 [Ca3505]: {{ base_path }}/blog/Ca3505-for-Robochallenge-2005/ "Ca3505"
 [Kno0Bot]: {{ base_path }}/blog/Kno0Bot-for-Roboking-2006/ "Kn-0Bot"
 [Kno2Bot]: {{ base_path }}/blog/Kno2Bot-for-Roboking-2007/ "Kno2Bot"
