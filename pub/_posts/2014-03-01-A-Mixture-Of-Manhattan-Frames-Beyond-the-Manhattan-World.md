@@ -74,7 +74,7 @@ gray to reveal the composition of the scene more clearly.
 
 We are releasing the MMF inference code under an academic license. You
 can download it from
-[here](http://people.csail.mit.edu/jstraub/index.php?site=mmf_code).
+[here]({{ base_path }}/mmf-code/).
 
 ## Mixture of Manhattan Frames extracted from NYU depth dataset V2
 
