@@ -20,7 +20,7 @@ Since such transformations are fundamental to
 robotics, computer vision and 3D perception and hence to my research, I
 took the time to write up what I call the 
 [Transformation
-Cookbook](/download/straubTransformationCookbook.pdf). The naming
+Cookbook](/docs/straubTransformationCookbook.pdf). The naming
 follows the famous [Matrix
 Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 which has helped me figure out some pretty hairy matrix derivatives.
