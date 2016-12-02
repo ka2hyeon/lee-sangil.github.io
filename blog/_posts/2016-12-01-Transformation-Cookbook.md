@@ -2,6 +2,8 @@
 title: Transformation Cookbook
 ---
 
+{% include base_path %}
+
 Rigid body transformations can be a source for confusion and mistakes
 in theoretical and practical settings. 
 Rotations alone can be represented in a variety of ways. Three
@@ -20,7 +22,7 @@ Since such transformations are fundamental to
 robotics, computer vision and 3D perception and hence to my research, I
 took the time to write up what I call the 
 [Transformation
-Cookbook](/docs/straubTransformationCookbook.pdf). The naming
+Cookbook]({{ base_path }}/download/straubTransformationCookbook.pdf). The naming
 follows the famous [Matrix
 Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 which has helped me figure out some pretty hairy matrix derivatives.
