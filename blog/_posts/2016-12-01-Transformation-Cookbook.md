@@ -1,8 +1,7 @@
 ---
+layout: single
 title: Transformation Cookbook
 ---
-
-{% include base_path %}
 
 Rigid body transformations can be a source for confusion and mistakes
 in theoretical and practical settings. 
@@ -17,6 +16,8 @@ which other coordinate system a transformation transforms.
 And finally it is not straight forward to derive the gradient or
 Hessian for a cost function with respect to a rotation or full rigid
 body transformation.
+
+{% include base_path %}
 
 Since such transformations are fundamental to
 robotics, computer vision and 3D perception and hence to my research, I
