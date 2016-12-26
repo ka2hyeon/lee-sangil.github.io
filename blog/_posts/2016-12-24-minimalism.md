@@ -6,6 +6,7 @@ header:
 ---
 
 *Find out what is important to you and let go of everything else.*
+(paraphrased from [Joshua Becker](http://www.becomingminimalist.com/becoming-minimalist-start-here/))
 
 This key message of minimalism manifests itself in de-cluttering ones
 life, giving away or selling un-needed things, letting go of projects
@@ -29,12 +30,18 @@ care of stuff I don't even enjoy. It means maximizing free time to enjoy
 the important things in my life. It allows me to take 1h to 1:30h
 every morning to meditate and/or run because these are very important
 to me. Since there is less stuff distracting me at night, getting up
-early and taking that time has been no problem.
+early and taking that time has been easy.
 
 Less is beautiful. Since I donated five (yes five!) trash bags of
 cloths, shoes and other stuff my room and shelves have more space and
-no clutter. I love coming home to my room now. It is beautiful.
-The funny thing is I don't even remember what was in those five trash
-bags.
+no clutter. I love coming home to my room now. It is beautiful and
+spacious.  The funny thing is I don't even remember what was in those
+five trash bags.
 
 I like where this path leads. I will keep walking.
+
+If you want to read a bit more checkout the amazing minimalist blogs of
+Leo Babouta ([mnmlist](http://mnmlist.com/archive/) and [zen
+habits](https://zenhabits.net/)), of [Joshua Fields Millburn and
+Ryan Nicodemus](http://www.theminimalists.com/), and of [Joshua
+Becker](http://www.becomingminimalist.com/becoming-minimalist-start-here/).
