@@ -3,6 +3,7 @@ layout: single
 title: minimalism
 header:
   image: blog/minimalism.jpg
+  teaser: blog/minimalism_tn.jpg
 ---
 
 *Find out what is important to you and let go of everything else.*
