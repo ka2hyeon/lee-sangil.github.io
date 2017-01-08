@@ -41,7 +41,7 @@ To circumvent this you can make bash log every command you enter. Simply
 add the following line to your `.bashrc`:
 
 ```
-export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log;' 
+export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log; fi;' 
 ```
 
 Bash executes the command in its `PROMPT_COMMAND` variable right after you hit
