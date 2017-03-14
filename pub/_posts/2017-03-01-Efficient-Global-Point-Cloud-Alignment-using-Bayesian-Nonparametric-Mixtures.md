@@ -5,12 +5,12 @@ header:
 conference: CVPR
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2017globTrans.pdf
+   link: https://arxiv.org/abs/1603.04868
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
  - code: 
-   link: https://github.com/jstraub/
+   link: https://github.com/jstraub/dpOptTrans
    name: "Code"
 ---
 
@@ -23,7 +23,7 @@ Point cloud alignment is a common problem in computer vision and robotics, with 
   title = {Efficient Global Point Cloud Alignment using Bayesian Nonparametric Mixtures},
   booktitle = {CVPR},
   year = {2017},
-  url = {http://www.jstraub.de/download/straub2017globTrans.pdf}
+  url = {https://arxiv.org/abs/1603.04868}
 }
 ```
 
