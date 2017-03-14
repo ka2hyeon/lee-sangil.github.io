@@ -1,11 +1,11 @@
 ---
 title: "The Manhattan Frame Model-Manhattan World Inference in the Space of Surface Normals"
 header:
-  teaser: tumbnails/tn_MMF.png
+  teaser: tumbnails/teaserMwMf.png
 conference: TPAMI
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2017mmf.pdf
+   link: http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7839295
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
@@ -18,8 +18,29 @@ links:
  - dataset: 
    link: /_pages/nyu-mmf-dataset/
    name: "Dataset"
-excerpt: "Man-made objects and buildings exhibit a clear structure in the form of orthogonal and parallel planes. This observation, commonly referred to as the Manhattan-world (MW) model, has been widely exploited in computer vision and robotics. At both larger and smaller scales, the scale of a city, indoor scenes or smaller objects, a more flexible model is merited. Here, we propose a novel probabilistic model that describes scenes as mixtures of Manhattan Frames (MF) - sets of orthogonal and parallel planes."
 ---
+
+Objects and structures within man-made environments typically exhibit a
+high degree of organization in the form of orthogonal and parallel
+planes. Traditional approaches utilize these regularities via the
+restrictive, and rather local, Manhattan World (MW) assumption which
+posits that every plane is perpendicular to one of the axes of a single
+coordinate system. The aforementioned regularities are especially
+evident in the surface normal distribution of a scene where they
+manifest as orthogonally-coupled clusters.  This motivates the
+introduction of the Manhattan-Frame (MF) model which captures the
+notion of a MW in the surface normals space, the unit sphere, and two
+probabilistic MF models over this space.  First, for a single MF we
+propose novel real-time MAP inference algorithms, evaluate their
+performance and their use in drift-free rotation estimation. Second, to
+capture the complexity of real-world scenes at a global scale, we
+extend the MF model to a probabilistic mixture of Manhattan Frames
+(MMF). For MMF inference we propose a simple MAP inference algorithm
+and an adaptive Markov-Chain Monte-Carlo sampling algorithm with
+Metropolis-Hastings split/merge moves that let us infer the unknown
+number of mixture components. We demonstrate the versatility of the MMF
+model and inference algorithm across several scales of man-made
+environments.
 
 {% include base_path %}
 

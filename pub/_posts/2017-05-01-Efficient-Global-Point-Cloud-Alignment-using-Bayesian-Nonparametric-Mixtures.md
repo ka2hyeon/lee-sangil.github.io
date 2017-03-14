@@ -1,7 +1,7 @@
 ---
 title:  Efficient Global Point Cloud Alignment using Bayesian Nonparametric Mixtures
 header:
-  teaser: /tumbnails/
+  teaser: https://upload.wikimedia.org/wikipedia/commons/c/c3/Schlegel_wireframe_600-cell_vertex-centered.png
 conference: CVPR
 links: 
  - paper: 
