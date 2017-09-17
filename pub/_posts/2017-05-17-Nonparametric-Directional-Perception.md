@@ -1,7 +1,7 @@
 ---
-title: Nonparametric Directional Perception
+title: "Nonparametric Directional Perception"
 header:
-  teaser: 
+  teaser: tumbnails/teaserPhDThesis.png
 conference: PhD Thesis
 links: 
  - paper: 
@@ -12,6 +12,12 @@ links:
    name: "PhD Thesis (low res.)"
  - bibtex: 
    name: "Bibtex"
+ - video: 
+   link: https://youtu.be/1cSLE7D3YsQ
+   name: "Video Staircase"
+ - video: 
+   link: https://youtu.be/viX-5EykS5c
+   name: "Video Office"
 ---
 
 Artificial perception systems, like autonomous cars and augmented
@@ -43,6 +49,8 @@ normal distributions and 3D structure lead to practical advances in
 scene segmentation, drift-free rotation estimation, global point cloud
 registration and real-time direction-aware 3D reconstruction to aid
 artificial perception systems.
+
+{% include base_path %}
 
 ## Bibtex <a id="bibtex"></a>
 ```
