@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Sangil Lee"
 title_separator          : "-"
 name                     : "Sangil Lee"
-description              : "developing artificial 3D perception"
+description              : "developing robot vision"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Sangil Lee"
   avatar           : "Profile.jpg"
-  bio              : "Ph.D. student in Mechnical & Aerospace Engineering in SNU."
+  bio              : "Ph.D. student in Mechanical & Aerospace Engineering in SNU."
   location         : "Seoul, South Korea"
   email            : "sangil07@snu.ac.kr"
   uri              : 
@@ -89,8 +89,8 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Sangil Lee"
-  google_plus      : "AeternusLSI"
+  github           : "lee-sangil"
+  google_plus      : "Sangil Lee"
   google_scholar   : "Sangil Lee"
   keybase          :
   instagram        :

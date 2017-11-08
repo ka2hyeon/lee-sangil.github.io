@@ -3,13 +3,11 @@ main:
   - title: "Publications"
     url: /_pages/pub/index.html
 
-#  - title: "Portfolio"
-#    url: /_pages/portfolio/index.html
   - title: "Blog"
     url: /_pages/blog/index.html
 
   - title: "Photography"
     url: /_pages/photography/index.html
 
-  - title: "MMF Dataset"
-    url: /_pages/nyu-mmf-dataset/index.html
+  - title: "ICSL-DE Dataset"
+    url: /_pages/icsl-de-dataset/index.html
