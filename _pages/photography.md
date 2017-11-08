@@ -8,7 +8,7 @@ gallery-canmore1:
 gallery-canmore2:
   - url: photography/canmore/IMG_2557 (3).jpg
     image_path: photography/canmore/IMG_2557 (3).jpg
-    alt: "Stars at Canmore
+    alt: "Stars at Canmore"
 gallery-changgeonggung-palace1:
   - url: photography/changgeonggung-palace/KakaoTalk_20171105_215539893_.jpg
     image_path: photography/canmore/KakaoTalk_20171105_215539893_.jpg
