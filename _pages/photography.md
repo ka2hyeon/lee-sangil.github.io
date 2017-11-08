@@ -11,11 +11,11 @@ gallery-canmore2:
     alt: "Stars at Canmore"
 gallery-changgeonggung-palace1:
   - url: photography/changgeonggung-palace/KakaoTalk_20171105_215539893_.jpg
-    image_path: photography/canmore/KakaoTalk_20171105_215539893_.jpg
+    image_path: photography/changgeonggung-palace/KakaoTalk_20171105_215539893_.jpg
     alt: "Changgeonggung palace at Seoul"
 gallery-changgeonggung-palace2:
   - url: photography/changgeonggung-palace/KakaoTalk_20171105_215544474_.jpg
-    image_path: photography/canmore/KakaoTalk_20171105_215544474_.jpg
+    image_path: photography/changgeonggung-palace/KakaoTalk_20171105_215544474_.jpg
     alt: "Changgeonggung palace at Seoul"
 gallery-cityscape:
   - url: photography/seoul-cityscape/Background03.jpg
