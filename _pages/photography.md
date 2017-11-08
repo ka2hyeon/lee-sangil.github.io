@@ -33,7 +33,7 @@ gallery-sorae-ecology-park:
 
 {% include base_path %}
 
-## ChangGeongGung
+## Changgyeonggung Palace
 
 {% include gallery id="gallery-changgeonggung-palace1" caption="" %}
 {% include gallery id="gallery-changgeonggung-palace2" caption="" %}
@@ -47,7 +47,7 @@ gallery-sorae-ecology-park:
 {% include gallery id="gallery-canmore1" caption="" %}
 {% include gallery id="gallery-canmore2" caption="" %}
 
-## Cityscape
+## Seoul Cityscape
 
 {% include gallery id="gallery-cityscape" caption="" %}
 
