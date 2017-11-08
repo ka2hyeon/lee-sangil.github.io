@@ -20,7 +20,11 @@ gallery-changgeonggung-palace2:
 gallery-cityscape:
   - url: photography/seoul-cityscape/Background03.jpg
     image_path: photography/seoul-cityscape/Background03.jpg
-    alt: "Seoul city scape at Bldg. 301 in SNU"
+    alt: "Seoul cityscape at Bldg. 301 in SNU"
+gallery-snu:
+  - url: photography/SNU/four_season_2.jpg
+    image_path: photography/SNU/four_season_2.jpg
+    alt: "SNU at Mt. Samsung"
 gallery-sorae-ecology-park:
   - url: photography/sorae-ecology-park/KakaoTalk_20171022_003811155.jpg
     image_path: photography/sorae-ecology-park/KakaoTalk_20171022_003811155.jpg
@@ -47,3 +51,6 @@ gallery-sorae-ecology-park:
 
 {% include gallery id="gallery-cityscape" caption="" %}
 
+## Seoul National University
+
+{% include gallery id="gallery-snu" caption="" %}
