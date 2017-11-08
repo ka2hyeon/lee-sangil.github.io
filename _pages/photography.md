@@ -22,8 +22,8 @@ gallery-cityscape:
     image_path: photography/seoul-cityscape/Background03.jpg
     alt: "Seoul city scape at Bldg. 301 in SNU"
 gallery-sorae-ecology-park:
-  - url: photography/sorae-ecology-park/kakaotalk_20171022_003811155.jpg
-    image_path: photography/sorae-ecology-park/kakaotalk_20171022_003811155.jpg
+  - url: photography/sorae-ecology-park/KakaoTalk_20171022_003811155.jpg
+    image_path: photography/sorae-ecology-park/KakaoTalk_20171022_003811155.jpg
     alt: "Sorae ecology park at Incheon"
 ---
 

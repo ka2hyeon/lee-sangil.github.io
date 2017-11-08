@@ -2,7 +2,7 @@
 title: "Real-time Rigid Motion Segmentation using Grid-based Optical Flow"
 header:
   teaser: tumbnails/teaserDirSLAM.png
-conference: arxiv
+conference: SMC
 links: 
  - bibtex: 
    name: "Bibtex"
