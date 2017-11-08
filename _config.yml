@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Julian Straub"
+title                    : "Sangil Lee"
 title_separator          : "-"
-name                     : "Julian Straub"
+name                     : "Sangil Lee"
 description              : "developing artificial 3D perception"
-url                      : "http://people.csail.mit.edu/jstraub" #"http://localhost:4000" #"https://jstraub.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -70,32 +70,32 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" #, "google-universal", "custom"
+  provider               : false # false (defulat), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-49442816-1"
+    tracking_id          : # "UA-109183715-1"
 
 
 # Site Author
 author:
-  name             : "Julian Straub"
-  avatar           : "JulianStraub_csail_S.jpg"
-  bio              : "developing artificial 3D perception"
-  location         : "MIT"
-  email            : "jstraub@csail.mit.edu"
+  name             : "Sangil Lee"
+  avatar           : "Profile.jpg"
+  bio              : "Ph.D. student in Mechnical & Aerospace Engineering in SNU."
+  location         : "Seoul, South Korea"
+  email            : "sangil07@snu.ac.kr"
   uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "130351586@N05"
-  facebook         : "jstraub6" 
+  flickr           :
+  facebook         :
   foursquare       :
-  github           : "jstraub"
-  google_plus      : "jstraub6"
-  google_scholar   : "49_cCT8AAAAJ"
+  github           : "Sangil Lee"
+  google_plus      : "AeternusLSI"
+  google_scholar   : "Sangil Lee"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "julian-straub-56b70029"
+  linkedin         :
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -105,9 +105,9 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "jstraub6"
-  resume           : "JulianStraub_Resume.pdf"
-  cv               : "JulianStraub_CV.pdf"
+  youtube          : "AeternusLSI"
+  resume           : # "JulianStraub_Resume.pdf"
+  cv               : "SangilLee_CV.pdf"
 
 
 # Reading Files
