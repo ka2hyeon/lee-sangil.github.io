@@ -1,5 +1,6 @@
 ---
 layout: single
+title: ICSL Dynamic Environments Dataset
 author_profile: true
 header:
   overlay_image: pub/mmf/mmfDataset.png

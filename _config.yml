@@ -70,9 +70,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (defulat), "google", "google-universal", "custom"
+  provider               : "google" # false (defulat), "google", "google-universal", "custom"
   google:
-    tracking_id          : # "UA-109183715-1"
+    tracking_id          : "UA-109409543-1"
 
 
 # Site Author
@@ -90,7 +90,7 @@ author:
   facebook         :
   foursquare       :
   github           : "lee-sangil"
-  google_plus      : "117368088923254758410"
+  google_plus      : # "117368088923254758410"
   google_scholar   : "Sangil Lee"
   keybase          :
   instagram        :
