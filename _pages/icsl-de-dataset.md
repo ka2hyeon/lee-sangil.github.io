@@ -1,9 +1,9 @@
 ---
 layout: single
-title: ICSL Dynamic Environments Dataset
 author_profile: true
 header:
-  image: pub/mmf/mmfDataset.png
+  overlay_image: pub/mmf/mmfDataset.png
+[comment]: <> (image: pub/mmf/mmfDataset.png)
 ---
 [comment]: <> ("Some MMF inference results from the NYU V2 dataset. Coloring in the first three scenes is according to the axis assignment of the single inferred MF. For the other scenes several MFs were inferred and the assignments to MFs is color-coded.")
 
