@@ -68,8 +68,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  // because my current pic is 1.5 ratio
-  width: 20px;
+  // because my current pic is 1 ratio
+  width: 36px;
   height: 36px;
 
   @include breakpoint($large) {
