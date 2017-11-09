@@ -47,10 +47,10 @@ gallery-sorae-ecology-park:
 {% include gallery id="gallery-canmore1" caption="" %}
 {% include gallery id="gallery-canmore2" caption="" %}
 
-## Seoul Cityscape
+## Seoul Cityscape at Day and Night
 
 {% include gallery id="gallery-cityscape" caption="" %}
 
-## Seoul National University
+## Seoul National University over the Four Seasons
 
 {% include gallery id="gallery-snu" caption="" %}

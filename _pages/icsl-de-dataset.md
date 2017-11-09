@@ -1,7 +1,12 @@
 ---
 layout: single
 author_profile: true
+
 ---
+
+{% include base_path %}
+
+## ICSL Dynamic Environments Dataset
 
 We ran the [Mixture of Manhattan Frames]({{ base_path }}/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) (MMF) inference on the full NYU depth dataset V2 [[Silberman 2012](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)] consisting of
 N=1449 RGB-D frames and provide the results as a dataset. Visit our

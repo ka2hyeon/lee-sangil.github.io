@@ -5,7 +5,7 @@ header:
 conference: ICROS
 links: 
  - paper: 
-   link: http://www.dbpia.co.kr/DownloadSociety/Download/NODE07185777
+   link: http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07185777
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
