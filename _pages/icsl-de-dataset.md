@@ -1,12 +1,6 @@
 ---
 layout: single
-title: ICSL Dynamic Environments Dataset
 author_profile: true
-header:
-  overlay_image: pub/mmf/mmfDataset.png
-[comment]: <> (image: pub/mmf/mmfDataset.png)
----
-[comment]: <> ("Some MMF inference results from the NYU V2 dataset. Coloring in the first three scenes is according to the axis assignment of the single inferred MF. For the other scenes several MFs were inferred and the assignments to MFs is color-coded.")
 
 We ran the [Mixture of Manhattan Frames]({{ base_path }}/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) (MMF) inference on the full NYU depth dataset V2 [[Silberman 2012](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)] consisting of
 N=1449 RGB-D frames and provide the results as a dataset. Visit our
