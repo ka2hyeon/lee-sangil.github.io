@@ -7,9 +7,9 @@ excerpt: "developing robot vision"
 feature_row_pub:
   - url: /pub/Robust-Visual-Odometry-via-Rigid-Motion-Segmentation-for-Dynamic-Environments/
     image_path: tumbnails/MasterThesis.png
-    alt: "EMIVO"
-    title: "EMIVO"
-    excerpt: "Environmental Motion Invariant Visual Odometry (EMIVO) estimates the ego-motion with high accuracy and robustly and the motion of dynamic object separately."
+    alt: "DEIVO"
+    title: "DEIVO"
+    excerpt: "Dynamic Environments-Invariant Visual Odometry (DEIVO) estimates the ego-motion with high accuracy and robustly and the motion of dynamic object separately."
   - url: /pub/Realtime-Rigid-Motion-Segmentation-using-Grid-based-Optical-Flow/
     image_path: /tumbnails/motionSeg.png
     alt: "GD-MoSeg"
