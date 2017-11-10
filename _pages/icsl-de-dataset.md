@@ -42,7 +42,7 @@ We provide the list of the color and depth images as a text file.
 
 Although we provide the intrinsic parameter of the camera in each dataset, values are shown below:
 
-```vim
+```
 fx = 537.5999075271789 # focal length x
 fy = 539.0333244312846 # focal length y
 cx = 316.1486739642859 # optical center x
@@ -69,11 +69,11 @@ We provide the following .zip files containing RGB-D sequences and supplementary
 
 | Sequence name | Duration [s] | Length [m] | Invalid depth ratio [%] | Obstacle appearance ratio [%] | Description |
 |-------------------------------------------------------------------------------------------------------------------|
-| **Category: Fixed Camera** |
+| <td colspan=6>**Category: Fixed Camera** |
 |------------------------|
 | [Fixed Camera 1]() | 14.00 | 0.0 | 11.38 | 83.99 | One moving object |
 | [Fixed Camera 2]() | 19.95 | 0.0 | 14.26 | 85.25 | Two moving object |
-| **Category: Vicon Space** |
+| <td colspan=6>**Category: Vicon Space** |
 |-----------------------|
 | [Vicon Space 1]() | 26.43 | 8.6648 | 10.86 | 78.48 | Fast movement |
 | [Vicon Space 2]() | 50.24 | 8.0316 | 11.69 | 84.13 | Slow movement |
