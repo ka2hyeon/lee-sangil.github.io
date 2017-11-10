@@ -11,31 +11,34 @@ author_profile: true
 ### File Formats
 We provide the RGB-D datasets from the ASUS Xtion Pro live in the following format.
 
-* Color images and depth maps
+#### Color images and depth maps
 
 We provide the time-stamped color and depth images as a zip file (ZIP). 
-	* The **color** images are stored as 640x480 8-bit RGB images in PNG format.
-	* The **depth** images are stored as 640x480 16-bit monochrome images in PNG format.
-	* The color and depth images are already rectified using OpenNI driver from PrimeSense.
-	* The depth images are scaled by a factor of 1000, i.e., a pixel value of 1000 in the depth image denotes a distance of 1 meter from the camera. A pixel value of 0 means missing data.
 
-* Ground-truth trajectories
+* The **color** images are stored as 640x480 8-bit RGB images in PNG format.
+* The **depth** images are stored as 640x480 16-bit monochrome images in PNG format.
+* The color and depth images are already rectified using OpenNI driver from PrimeSense.
+* The depth images are scaled by a factor of 1000, i.e., a pixel value of 1000 in the depth image denotes a distance of 1 meter from the camera. A pixel value of 0 means missing data.
+
+#### Ground-truth trajectories
 
 We provide the ground-truth trajectories as a text file containing the translation and orientation of the camera in a fixed coordinate (Vicon). 
-	* Each line in the text file contains a single pose.
-	* The format of each line is 'time tx ty tz qx qy qz qw' as denoted in the text file.
-	* **time** (float) gives the UNIX system time.
-	* **tx ty tz** (3 floats) give the position of the color camera with respect to the fixed coordinates as defined by motion capture system.
-	* **qx qy qz qw** (4 floats) give the orientation of the color camera in form of a unit quaternion with respect to the fixed coordinates as defined by the motion capture system.
 
-* Image lists
+* Each line in the text file contains a single pose.
+* The format of each line is 'time tx ty tz qx qy qz qw' as denoted in the text file.
+* **time** (float) gives the UNIX system time.
+* **tx ty tz** (3 floats) give the position of the color camera with respect to the fixed coordinates as defined by motion capture system.
+* **qx qy qz qw** (4 floats) give the orientation of the color camera in form of a unit quaternion with respect to the fixed coordinates as defined by the motion capture system.
+
+#### Image lists
 
 We provide the list of the color and depth images as a text file.
-	* Each line in the text file contains synchronized timestamp and image (color or depth).
-	* The file may contain comments which begin with "#".
-	* We also provide **associations.txt** to make easy to evaluate ORB-SLAM algorithm.
+	
+* Each line in the text file contains synchronized timestamp and image (color or depth).
+* The file may contain comments which begin with "#".
+* We also provide **associations.txt** to make easy to evaluate ORB-SLAM algorithm.
 
-* Intrinsic parameter
+#### Intrinsic parameter
 
 Although we provide the intrinsic parameter of the camera in each dataset, values are shown below:
 
