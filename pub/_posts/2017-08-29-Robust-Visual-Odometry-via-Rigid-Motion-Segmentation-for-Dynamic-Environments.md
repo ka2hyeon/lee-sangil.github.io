@@ -7,8 +7,11 @@ links:
  - paper: 
    link: http://s-space.snu.ac.kr/bitstream/10371/137350/1/000000146330.pdf
    name: "Paper"
+ - video:
+   link: https://www.youtube.com/watch?v=v-2q4XaHWSY/
+   name: "Video"
  - dataset: 
-   link: 
+   link: /_pages/icsl-de-dataset/index.html/
    name: "Dataset"
  - bibtex: 
    name: "Bibtex"
