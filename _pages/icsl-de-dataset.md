@@ -10,7 +10,9 @@ author_profile: true
 
 ### File Formats
 We provide the RGB-D datasets from the ASUS Xtion Pro live in the following format.
+
 * Color images and depth maps
+
 We provide the time-stamped color and depth images as a zip file (ZIP). 
 	* The **color** images are stored as 640x480 8-bit RGB images in PNG format.
 	* The **depth** images are stored as 640x480 16-bit monochrome images in PNG format.
@@ -18,6 +20,7 @@ We provide the time-stamped color and depth images as a zip file (ZIP).
 	* The depth images are scaled by a factor of 1000, i.e., a pixel value of 1000 in the depth image denotes a distance of 1 meter from the camera. A pixel value of 0 means missing data.
 
 * Ground-truth trajectories
+
 We provide the ground-truth trajectories as a text file containing the translation and orientation of the camera in a fixed coordinate (Vicon). 
 	* Each line in the text file contains a single pose.
 	* The format of each line is 'time tx ty tz qx qy qz qw' as denoted in the text file.
@@ -26,15 +29,17 @@ We provide the ground-truth trajectories as a text file containing the translati
 	* **qx qy qz qw** (4 floats) give the orientation of the color camera in form of a unit quaternion with respect to the fixed coordinates as defined by the motion capture system.
 
 * Image lists
+
 We provide the list of the color and depth images as a text file.
 	* Each line in the text file contains synchronized timestamp and image (color or depth).
 	* The file may contain comments which begin with "#".
 	* We also provide **associations.txt** to make easy to evaluate ORB-SLAM algorithm.
 
 * Intrinsic parameter
+
 Although we provide the intrinsic parameter of the camera in each dataset, values are shown below:
 
-```md
+```vim
 fx = 537.5999075271789 # focal length x
 fy = 539.0333244312846 # focal length y
 cx = 316.1486739642859 # optical center x
@@ -60,20 +65,17 @@ The above values are calculated by MATLAB calibration toolbox, and the color and
 We provide the following .zip files containing RGB-D sequences and supplementary material (i.e. ground-truth, camera intrinsic, etc). 
 
 | Sequence name | Duration [s] | Length [m] | Invalid depth ratio [%] | Obstacle appearance ratio [%] | Description |
-|---------------|--------------|------------|-------------------------|-------------------------------|-------------|
-| Category: Fixed Camera |
+|-------------------------------------------------------------------------------------------------------------------|
+| **Category: Fixed Camera** |
 |------------------------|
-| [[Fixed Camera 1]()] | 14.00 | 0.0 | 11.38 | 83.99 | One moving object |
-| [[Fixed Camera 2]()] | 19.95 | 0.0 | 14.26 | 85.25 | Two moving object |
-| Category: Vicon Space |
+| [Fixed Camera 1]() | 14.00 | 0.0 | 11.38 | 83.99 | One moving object |
+| [Fixed Camera 2]() | 19.95 | 0.0 | 14.26 | 85.25 | Two moving object |
+| **Category: Vicon Space** |
 |-----------------------|
-| [[Vicon Space 1]()] | 26.43 | 8.6648 | 10.86 | 78.48 | Fast movement |
-| [[Vicon Space 2]()] | 50.24 | 8.0316 | 11.69 | 84.13 | Slow movement |
-| [[Vicon Space 3]()] | 23.43 | 2.0339 | 23.11 | 74.29 | Close approach |
+| [Vicon Space 1]() | 26.43 | 8.6648 | 10.86 | 78.48 | Fast movement |
+| [Vicon Space 2]() | 50.24 | 8.0316 | 11.69 | 84.13 | Slow movement |
+| [Vicon Space 3]() | 23.43 | 2.0339 | 23.11 | 74.29 | Close approach |
 
 We describe datasets in terms of duration, length, invalid depth ratio, and obstacle appearance ratio. The duration and length literally mean the total time and the distance it moved, respectively. The invalid depth ratio is a percentage of the invalid depth pixels among all pixels of the entire depth frame, and obstacle appearance ratio means the percentage of frames in which a dynamic object appears. In the foregoing table, datasets belonging to the Category 1 were recorded by the situation where the camera is fixed on a certain point and one or two objects are moving around in front of the camera. On the other hand, datasets belonging to the Category 2 were recorded by the non-stationary camera.
-
-[//]: # "**If you are using this dataset please cite our [paper about the MMF]({{ base_path }}/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) 
-as well as [[Silberman 2012](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)].**"
 
 For questions, comments or suggestions please feel free to send me an email.
