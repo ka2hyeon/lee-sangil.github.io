@@ -16,7 +16,7 @@ feature_row_pub:
     title: "GD-MoSeg"
     excerpt: "Rigid Motion Segmentation using Grid-based Dense Optical Flow (GD-MoSeg) separates objects which move independently of each other."
   - url: /_pages/icsl-de-dataset/index.html
-    image_path: /tumbnails/dptgmm_tn.png
+    image_path: /tumbnails/dataset.jpg
     alt: "ICSL-DE"
     title: "ICSL-DE"
     excerpt: "ICSL Dynamic Environments (ICSL-DE) dataset includes image sequences collected in dynamic environments."
