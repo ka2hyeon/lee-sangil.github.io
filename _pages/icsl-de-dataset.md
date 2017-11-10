@@ -8,36 +8,72 @@ author_profile: true
 
 ## ICSL Dynamic Environments Dataset
 
-We ran the [Mixture of Manhattan Frames]({{ base_path }}/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) (MMF) inference on the full NYU depth dataset V2 [[Silberman 2012](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)] consisting of
-N=1449 RGB-D frames and provide the results as a dataset. Visit our
-project homepage for an abstract as well as a brief MMF introductory
-video.
+### File Formats
+We provide the RGB-D datasets from the ASUS Xtion Pro live in the following format.
+* Color images and depth maps
+We provide the time-stamped color and depth images as a zip file (ZIP). 
+	* The **color** images are stored as 640x480 8-bit RGB images in PNG format.
+	* The **depth** images are stored as 640x480 16-bit monochrome images in PNG format.
+	* The color and depth images are already rectified using OpenNI driver from PrimeSense.
+	* The depth images are scaled by a factor of 1000, i.e., a pixel value of 1000 in the depth image denotes a distance of 1 meter from the camera. A pixel value of 0 means missing data.
 
-We provide the following two .mat files as well as a simple
-visualization script. Note that the ordering of our dataset is the same
-as in the NYU V2 dataset. Additionally, note that the provided MMF for
-each scene is the last sample in the Markov chain with the most likely
-number of MFs (after some burn in period). This dataset was created
-from a re-run of the inference over the NYU depth dataset and hence may
-have slightly different MMFs than in the original paper and slides,
-since the inference is sampling based. We describe the variables
-contained in each of the .mat files for reference:
+* Ground-truth trajectories
+We provide the ground-truth trajectories as a text file containing the translation and orientation of the camera in a fixed coordinate (Vicon). 
+	* Each line in the text file contains a single pose.
+	* The format of each line is 'time tx ty tz qx qy qz qw' as denoted in the text file.
+	* **time** (float) gives the UNIX system time.
+	* **tx ty tz** (3 floats) give the position of the color camera with respect to the fixed coordinates as defined by motion capture system.
+	* **qx qy qz qw** (4 floats) give the orientation of the color camera in form of a unit quaternion with respect to the fixed coordinates as defined by the motion capture system.
 
-* MMF labels, axis labels, rotations and mask [[download](http://people.csail.mit.edu/jstraub/download/nyu_depth_v2_mmf_v1.1.mat)] (~1.2 GB) [updated 03/27/2015]
-	* **mmfs**: HxWxN labels assigning each normal to one of the MFs. MF labels start with id 1, 0s indicate missing data.
-	* **mfss**: HxWxN labels assigning each normal to one of the 6 directions implied by its associated MF. MF axis labels start with id 1, 0s indicate missing data.
-	* **mfRs**: Nx1 cell array of 3x(3K) matrices, where K rotation matrices - one for each MF - are stacked column wise.
-	* **logLikeNormals**: HxWxN log likelihood of the normals under MMF.
-	* **masks**: HxWxN mask indicating valid data.
-	* **scenes**: Nx1 cell array of the name of the scene from which each image was taken (direct copy from NYU V2 .mat file)
-* total variation regularized normals for the entire dataset [[download](http://people.csail.mit.edu/jstraub/download/nyu_depth_v2_normals.mat)] (~3.2 GB) [updated 03/27/2015]
-	* **normals**: HxWx3xN total variation regularized normals estimated from raw depth data.
-	* **mask**: HxWxN mask indicating valid data.
-	* **scenes**: Nx1 cell array of the name of the scene from which each image was taken (direct copy from NYU V2 .mat file).
-* basic script to visualize the MMF results [[download](http://people.csail.mit.edu/jstraub/download/showMMF.m)]
-* groundtruth number of MFs for all scenes in the NYU depth dataset in a .csv file [[download](http://people.csail.mit.edu/jstraub/download/mmfGT_pub.csv)]
+* Image lists
+We provide the list of the color and depth images as a text file.
+	* Each line in the text file contains synchronized timestamp and image (color or depth).
+	* The file may contain comments which begin with "#".
+	* We also provide **associations.txt** to make easy to evaluate ORB-SLAM algorithm.
 
-**If you are using this dataset please cite our [paper about the MMF]({{ base_path }}/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/)
-as well as [[Silberman 2012](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)].**
+* Intrinsic parameter
+Although we provide the intrinsic parameter of the camera in each dataset, values are shown below:
+
+```md
+fx = 537.5999075271789 # focal length x
+fy = 539.0333244312846 # focal length y
+cx = 316.1486739642859 # optical center x
+cy = 245.5186676348365 # optical center y
+
+# depth scale for the 16-bit image
+factor = 1000
+
+# radial distortion coefficient
+k1 = 0.035426591276682
+k2 = -0.047648000294533
+k3 = -0.207042022821082
+
+# tangential distortion coefficient
+p1 = 0.001070852971683
+p2 = 0.001266157687369
+```
+
+The above values are calculated by MATLAB calibration toolbox, and the color and depth images are rectified in order to the pixels in the color and depth images correspond one-to-one.
+
+### Downloads
+
+We provide the following .zip files containing RGB-D sequences and supplementary material (i.e. ground-truth, camera intrinsic, etc). 
+
+| Sequence name | Duration [s] | Length [m] | Invalid depth ratio [%] | Obstacle appearance ratio [%] | Description |
+|---------------|--------------|------------|-------------------------|-------------------------------|-------------|
+| Category: Fixed Camera |
+|------------------------|
+| [[Fixed Camera 1]()] | 14.00 | 0.0 | 11.38 | 83.99 | One moving object |
+| [[Fixed Camera 2]()] | 19.95 | 0.0 | 14.26 | 85.25 | Two moving object |
+| Category: Vicon Space |
+|-----------------------|
+| [[Vicon Space 1]()] | 26.43 | 8.6648 | 10.86 | 78.48 | Fast movement |
+| [[Vicon Space 2]()] | 50.24 | 8.0316 | 11.69 | 84.13 | Slow movement |
+| [[Vicon Space 3]()] | 23.43 | 2.0339 | 23.11 | 74.29 | Close approach |
+
+We describe datasets in terms of duration, length, invalid depth ratio, and obstacle appearance ratio. The duration and length literally mean the total time and the distance it moved, respectively. The invalid depth ratio is a percentage of the invalid depth pixels among all pixels of the entire depth frame, and obstacle appearance ratio means the percentage of frames in which a dynamic object appears. In the foregoing table, datasets belonging to the Category 1 were recorded by the situation where the camera is fixed on a certain point and one or two objects are moving around in front of the camera. On the other hand, datasets belonging to the Category 2 were recorded by the non-stationary camera.
+
+[//]: # "**If you are using this dataset please cite our [paper about the MMF]({{ base_path }}/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) 
+as well as [[Silberman 2012](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)].**"
 
 For questions, comments or suggestions please feel free to send me an email.
