@@ -22,6 +22,8 @@ feature_row_pub:
     excerpt: "ICSL Dynamic Environments (ICSL-DE) dataset includes image sequences collected in dynamic environments."
 ---
 
+## Sangil Lee
+
 In Spring 2015, I joined [ICSL](http://icsl.snu.ac.kr/) in Seoul National University to pursue research in **Robotics**. I am currently working with [Pyojin Kim](http://pyojinkim.me/), Changhyeon Kim, and Haram Kim.
 
 [comment]: <> (I am very grateful for the many friends, advisors and my family which support me on this journey.)

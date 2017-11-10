@@ -29,10 +29,6 @@ gallery-sorae-ecology-park:
   - url: photography/sorae-ecology-park/KakaoTalk_20171022_003811155.jpg
     image_path: photography/sorae-ecology-park/KakaoTalk_20171022_003811155.jpg
     alt: "Sorae ecology park at Incheon"
-gallery-calgary:
-  - url: photography/calgary/IMG_2583.jpg
-	image_path: photography/calgary/IMG_2583.jpg
-	alt: "Cityview at Calgary Tower"
 ---
 
 {% include base_path %}
@@ -50,10 +46,6 @@ gallery-calgary:
 
 {% include gallery id="gallery-canmore1" caption="" %}
 {% include gallery id="gallery-canmore2" caption="" %}
-
-## Calgary Cityview at Calgary Tower
-
-{% include gallery id="gallery-calgary" caption="" %}
 
 ## Seoul Cityscape at Day and Night
 
