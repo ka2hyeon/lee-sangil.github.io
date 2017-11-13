@@ -67,13 +67,13 @@ The above values are calculated by MATLAB calibration toolbox, and the color and
 
 We provide the following .zip files containing RGB-D sequences and supplementary material (i.e. ground-truth, camera intrinsic, etc). 
 
-| Sequence name | Duration [s] | Length [m] | Invalid depth ratio [%] | Obstacle appearance ratio [%] | Description |
+| sequence name | duration | length | invalid depth ratio | obstacle appearance ratio | description |
 |-------------------------------------------------------------------------------------------------------------------|
-| [Fixed Camera 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed1.tgz)(0.26GB) | 23.15 | 0.0 | 11.38 | 83.99 | One moving object |
-| [Fixed Camera 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed2.tgz)(0.29GB) | 24.70 | 0.0 | 14.26 | 85.25 | Two moving object |
-| [Vicon Space 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon1.tgz)(0.55GB) | 32.99 | 10.836 | 10.86 | 78.48 | Fast movement |
-| [Vicon Space 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon2.tgz)(1.11GB) | 66.60 | 10.026 | 11.69 | 84.13 | Slow movement |
-| [Vicon Space 3](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon3.tgz)(0.75GB) | 47.57 | 5.4408 | 23.11 | 74.29 | Close approach |
+| [Fixed Camera 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed1.tgz) (0.26GB) | 23.15 sec | 0.0 m | 11.38 % | 83.99 % | One moving object |
+| [Fixed Camera 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed2.tgz) (0.29GB) | 24.70 sec | 0.0 m | 14.26 % | 85.25 % | Two moving object |
+| [Vicon Space 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon1.tgz) (0.55GB) | 32.99 sec | 10.836 m | 10.86 % | 78.48 % | Fast movement |
+| [Vicon Space 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon2.tgz) (1.11GB) | 66.60 sec | 10.026 m | 11.69 % | 84.13 % | Slow movement |
+| [Vicon Space 3](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon3.tgz) (0.75GB) | 47.57 sec | 5.4408 m | 23.11 % | 74.29 % | Close approach |
 
 We describe datasets in terms of duration, length, invalid depth ratio, and obstacle appearance ratio. The duration and length literally mean the total time and the distance it moved, respectively. The invalid depth ratio is a percentage of the invalid depth pixels among all pixels of the entire depth frame, and obstacle appearance ratio means the percentage of frames in which a dynamic object appears. In the foregoing table, datasets belonging to the Category 1 were recorded by the situation where the camera is fixed on a certain point and one or two objects are moving around in front of the camera. On the other hand, datasets belonging to the Category 2 were recorded by the non-stationary camera.
 
