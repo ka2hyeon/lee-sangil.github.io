@@ -11,7 +11,7 @@ links:
    link: https://www.youtube.com/watch?v=v-2q4XaHWSY/
    name: "Video"
  - dataset: 
-   link: /_pages/icsl-de-dataset/index.html/
+   link: /_pages/icsl-de-dataset/index.html
    name: "Dataset"
  - bibtex: 
    name: "Bibtex"
