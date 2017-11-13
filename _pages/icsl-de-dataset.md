@@ -13,7 +13,7 @@ We provide the RGB-D datasets from the ASUS Xtion Pro live in the following form
 
 #### Color Images and Depth Maps
 
-We provide the time-stamped color and depth images as a zip file (TGZ). 
+We provide the time-stamped color and depth images as a tar.gz file (TGZ). 
 
 * The **color** images are stored as 640x480 8-bit RGB images in PNG format.
 * The **depth** images are stored as 640x480 16-bit monochrome images in PNG format.
@@ -65,15 +65,15 @@ The above values are calculated by MATLAB calibration toolbox, and the color and
 
 ### Downloads
 
-We provide the following .zip files containing RGB-D sequences and supplementary material (i.e. ground-truth, camera intrinsic, etc). 
+We provide the following .tgz files containing RGB-D sequences and supplementary material (i.e. ground-truth, camera intrinsic, etc). 
 
 | sequence name | duration | length | invalid depth ratio | obstacle appearance ratio | description |
 |-------------------------------------------------------------------------------------------------------------------|
-| [Fixed Camera 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed1.tgz) (0.26GB) | 23.15s | 0.0m | 11.38% | 83.99% | One moving object |
-| [Fixed Camera 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed2.tgz) (0.29GB) | 24.70s | 0.0m | 14.26% | 85.25% | Two moving object |
-| [Vicon Space 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon1.tgz) (0.55GB) | 32.99s | 10.836m | 10.86% | 78.48% | Fast movement |
-| [Vicon Space 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon2.tgz) (1.11GB) | 66.60s | 10.026m | 11.69% | 84.13% | Slow movement |
-| [Vicon Space 3](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon3.tgz) (0.75GB) | 47.57s | 5.4408m | 23.11% | 74.29% | Close approach |
+| [Fixed Camera 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed1.tgz) (0.26GB) | 23.15s | 0.00m | 11.38% | 83.99% | One moving object |
+| [Fixed Camera 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed2.tgz) (0.29GB) | 24.70s | 0.00m | 14.26% | 85.25% | Two moving object |
+| [Vicon Space 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon1.tgz) (0.55GB) | 32.99s | 10.84m | 10.86% | 78.48% | Fast movement |
+| [Vicon Space 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon2.tgz) (1.11GB) | 66.60s | 10.03m | 11.69% | 84.13% | Slow movement |
+| [Vicon Space 3](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon3.tgz) (0.75GB) | 47.57s | 5.441m | 23.11% | 74.29% | Close approach |
 
 We describe datasets in terms of duration, length, invalid depth ratio, and obstacle appearance ratio. The duration and length literally mean the total time and the distance it moved, respectively. The invalid depth ratio is a percentage of the invalid depth pixels among all pixels of the entire depth frame, and obstacle appearance ratio means the percentage of frames in which a dynamic object appears. In the foregoing table, datasets belonging to the **Fixed Camera** were recorded by the situation where the camera is fixed on a certain point and one or two objects are moving around in front of the camera. On the other hand, datasets belonging to the **Vicon Space** were recorded by the non-stationary camera.
 
