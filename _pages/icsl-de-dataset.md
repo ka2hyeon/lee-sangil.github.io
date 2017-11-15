@@ -68,7 +68,7 @@ The above values are calculated by MATLAB calibration toolbox, and the color and
 We provide the following .tgz files containing RGB-D sequences and supplementary material (i.e. ground-truth, camera intrinsic, etc). 
 
 | sequence name | duration | length | invalid depth ratio | obstacle appearance ratio | description |
-|-------------------------------------------------------------------------------------------------------------------|
+|---------------|:--------:|:------:|:-------------------:|:-------------------------:|-------------|
 | [Fixed Camera 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed1.tgz) (0.26GB) | 23.15s | 0.00m | 11.38% | 83.99% | One moving object |
 | [Fixed Camera 2](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_fixed2.tgz) (0.29GB) | 24.70s | 0.00m | 14.26% | 85.25% | Two moving object |
 | [Vicon Space 1](http://icsl.snu.ac.kr/sangillee/rgbd_dataset_vicon1.tgz) (0.55GB) | 32.99s | 10.84m | 10.86% | 78.48% | Fast movement |
