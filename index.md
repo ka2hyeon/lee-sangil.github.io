@@ -22,7 +22,7 @@ feature_row_pub:
     excerpt: "ICSL Dynamic Environments (ICSL-DE) dataset includes image sequences collected in dynamic environments."
 ---
 
-In Spring 2015, I joined [ICSL](http://icsl.snu.ac.kr/) in Seoul National University to pursue research in **Robotics**. I am currently working with [Pyojin Kim](http://pyojinkim.me/), [Changhyeon Kim](http://blog.naver.com/rlackd93/), and Haram Kim.
+In Spring 2015, I joined <a href=http://icsl.snu.ac.kr/ target="_blank">ICSL<\a> in Seoul National University to pursue research in **Robotics**. I am currently working with <a href=http://pyojinkim.me/ target="_blank">Pyojin Kim<\a>, <a href=http://blog.naver.com/rlackd93/ target="_blank">Changhyeon Kim<\a>, and Haram Kim.
 
 [comment]: <> (I am very grateful for the many friends, advisors and my family which support me on this journey.)
 [comment]: <> (### developing artificial 3D perception)
