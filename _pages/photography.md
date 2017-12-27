@@ -18,12 +18,12 @@ gallery-changgeonggung-palace2:
     image_path: photography/changgeonggung-palace/IMG_2799.JPG
     alt: "Changgeonggung palace at Seoul"
 gallery-cityscape:
-  - url: photography/seoul-cityscape/Background03.jpg
-    image_path: photography/seoul-cityscape/Background03.jpg
+  - url: photography/seoul-cityscape/Background03.JPG
+    image_path: photography/seoul-cityscape/Background03.JPG
     alt: "Seoul cityscape at Bldg. 301 in SNU"
 gallery-snu:
-  - url: photography/SNU/four_season_2.jpg
-    image_path: photography/SNU/four_season_2.jpg
+  - url: photography/SNU/four_season_2.JPG
+    image_path: photography/SNU/four_season_2.JPG
     alt: "SNU at Mt. Samsung"
 gallery-sorae-ecology-park:
   - url: photography/sorae-ecology-park/IMG_2696.JPG
