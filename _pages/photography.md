@@ -10,7 +10,7 @@ gallery-canmore2:
     image_path: photography/canmore/IMG_2557.JPG
     alt: "Stars at Canmore"
 gallery-changgeonggung-palace1:
-  - url: photography/changgeonggung-palace/IMG__2779.JPG
+  - url: photography/changgeonggung-palace/IMG_2779.JPG
     image_path: photography/changgeonggung-palace/IMG_2779.JPG
     alt: "Changgeonggung palace at Seoul"
 gallery-changgeonggung-palace2:
