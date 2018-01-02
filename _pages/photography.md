@@ -37,28 +37,28 @@ gallery-calgary:
 
 {% include base_path %}
 
-## Changgyeonggung Palace
+## Changgyeonggung Palace, Seoul, Korea
 
 {% include gallery id="gallery-changgeonggung-palace1" caption="" %}
 {% include gallery id="gallery-changgeonggung-palace2" caption="" %}
 
-## Sorae Ecology Park
+## Sorae Ecology Park, Incheon, Korea
 
 {% include gallery id="gallery-sorae-ecology-park" caption="" %}
 
-## Canmore
+## Canmore, Alberta, Canada
 
 {% include gallery id="gallery-canmore1" caption="" %}
 {% include gallery id="gallery-canmore2" caption="" %}
 
-## Calgary Cityview at Calgary Tower
+## Centre Street South, Calgary, Alberta, Canada
 
 {% include gallery id="gallery-calgary" caption="" %}
 
-## Seoul Cityscape at Day and Night
+## Seoul, Korea
 
 {% include gallery id="gallery-cityscape" caption="" %}
 
-## Seoul National University over the Four Seasons
+## Seoul National University, Seoul, Korea
 
 {% include gallery id="gallery-snu" caption="" %}
