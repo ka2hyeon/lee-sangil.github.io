@@ -41,6 +41,10 @@ gallery-seorak2:
   - url: photography/Seoraksan/IMG_0135.JPG
     image_path: photography/Seoraksan/IMG_0135.JPG
     alt: "Autumnal tints of Seoraksan"
+gallery-seorak3:
+  - url: photography/Seoraksan/PB090387_.JPG
+    image_path: photography/Seoraksan/PB090387_.JPG
+    alt: "Ilwalobongbyeong: A Folding Screen"
 gallery-jeju:
   - url: photography/Jeju/P8022596.JPG
     image_path: photography/Jeju/P8022596.JPG
@@ -73,11 +77,12 @@ gallery-jeju:
 
 ## Seoul National University, Seoul, Korea
 
-{% include gallery id="gallery-snu" caption="over the four seasons" %}
+{% include gallery id="gallery-snu" caption="" %}
 
 ## Mt. Seoraksan, Gangwon, Korea
 
-{% include gallery id="gallery-seorak1" caption="From dinosaur ridge trail to the beach of Sokcho" %}
+{% include gallery id="gallery-seorak3" caption="" %}
+{% include gallery id="gallery-seorak1" caption="" %}
 {% include gallery id="gallery-seorak2" caption="" %}
 
 ## A seashore, Jeju, Korea
