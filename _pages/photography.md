@@ -33,6 +33,18 @@ gallery-calgary:
   - url: photography/calgary/IMG_2583.JPG
     image_path: photography/calgary/IMG_2583.JPG
     alt: "Calgary cityview at Calgary Tower"
+gallery-seorak1:
+  - url: photography/Seoraksan/PB090406.JPG
+    image_path: photography/Seoraksan/PB090406.JPG
+    alt: "Dinosaur Ridge"
+gallery-seorak2:
+  - url: photography/Seoraksan/IMG_0135.JPG
+    image_path: photography/Seoraksan/IMG_0135.JPG
+    alt: "Autumnal tints of Seoraksan"
+gallery-jeju:
+  - url: photography/Jeju/P8022596.JPG
+    image_path: photography/Jeju/P8022596.JPG
+    alt: "A shore of Jeju"
 ---
 
 {% include base_path %}
@@ -61,4 +73,13 @@ gallery-calgary:
 
 ## Seoul National University, Seoul, Korea
 
-{% include gallery id="gallery-snu" caption="" %}
+{% include gallery id="gallery-snu" caption="over the four seasons" %}
+
+## Mt. Seoraksan, Gangwon, Korea
+
+{% include gallery id="gallery-seorak1" caption="From dinosaur ridge trail to the beach of Sokcho" %}
+{% include gallery id="gallery-seorak2" caption="" %}
+
+## A seashore, Jeju, Korea
+
+{% include gallery id="gallery-jeju" caption="" %}
