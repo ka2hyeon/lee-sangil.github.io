@@ -17,13 +17,13 @@ In this paper, we propose a planar panorama stitching method to blend consecutiv
 
 ## Bibtex <a id="bibtex"></a>
 ```
-@inproceedings{lee2016exposure,
-	title={Exposure correction and image blending for planar panorama stitching},
-	author={Lee, Sangil and Lee, Seung Jae and Park, Jaehyun and Kim, H Jin},
-	booktitle={Control, Automation and Systems (ICCAS), 2016 16th International Conference on},
-	pages={128--131},
-	year={2016},
-	organization={IEEE}
+@inproceedings{-,
+	title={-},
+	author={-},
+	booktitle={-},
+	pages={-},
+	year={-},
+	organization={-}
 }
 ```
 

@@ -6,7 +6,7 @@ header:
 conference: IROS2018
 links: 
  - paper: 
-   link: 
+   link: http://ieeexplore.ieee.org/abstract/document/7832309/
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
@@ -19,12 +19,12 @@ Learning from expert's demonstration is a good way of teaching complex policies 
 ## Bibtex <a id="bibtex"></a>
 ```
 @inproceedings{-,
-	-,
-	-,
-	-,
-	-,
-	-,
-	-
+	title={-},
+	author={-},
+	booktitle={-},
+	pages={-},
+	year={-},
+	organization={IEEE}
 }
 ```
 
