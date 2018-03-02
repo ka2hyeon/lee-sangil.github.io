@@ -16,13 +16,14 @@ Learning from expert's demonstration is a good way of teaching complex policies 
 
 ## Bibtex <a id="bibtex"></a>
 ```
-@inproceedings{-,
-	title={-},
-	author={-},
-	booktitle={-},
-	pages={-},
-	year={-},
-	organization={IEEE}
+@article{article,
+	author = {Lee, S and Kim, P and Kim, C and Lee, H and Kim, H.J.},
+	year = {2017},
+	month = {01},
+	pages = {424-431},
+	title = {Survey on visual odometry technology for unmanned systems},
+	volume = {23},
+	booktitle = {Journal of Institute of Control, Robotics and Systems}
 }
 ```
 
