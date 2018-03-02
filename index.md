@@ -2,7 +2,7 @@
 layout: single
 author_profile: true
 header:
-  overlay_image: header/example.jpg
+  overlay_image: header/2017_winter.jpg
 excerpt: "Intelligent Robotics"
 feature_row_pub:
   - url: /pub/Robust-Visual-Odometry-via-Rigid-Motion-Segmentation-for-Dynamic-Environments/
@@ -15,11 +15,6 @@ feature_row_pub:
     alt: "test"
     title: "test"
     excerpt: "test test test test"
-  - url: /_pages/icsl-de-dataset/index.html
-    image_path: /tumbnails/dataset.jpg
-    alt: "test"
-    title: "test"
-    excerpt: "test test test test test test"
 ---
 
 Ph.D course since 2015.
@@ -36,6 +31,7 @@ I love whoever live in our planet.
 My research interests in robotics are in **3D Vision** ( Visual Odometry[[1], [2], [3]] and Robust Visual Odometry[[1]] ) and **2D Vision** [[4]).
 
 {% include feature_row id="feature_row_pub" caption="Featured Publications" %}
+
 
 [1]: {{ base_path }}/pub/Robust-Visual-Odometry-via-Rigid-Motion-Segmentation-for-Dynamic-Environments/ "EMIVO"
 [2]: {{ base_path }}/pub/Realtime-Rigid-Motion-Segmentation-using-Grid-based-Optical-Flow/ "GD-MoSeg"
