@@ -10,16 +10,11 @@ feature_row_pub:
     alt: "test"
     title: "Deep Reinforcement Learning from Visually Demonstrated Pick-and-Place of Unclassified Objects"
     excerpt: "test test test test"
-  - url: /pub/Realtime-Rigid-Motion-Segmentation-using-Grid-based-Optical-Flow/
-    image_path: /tumbnails/motionSeg.png
-    alt: "test"
-    title: "test"
-    excerpt: "test test test test"
+
 ---
 
 Ph.D course since 2015.
-My research interest focuses on robotics with deep learnining such as 1) reinforcement learning 2) learning from demonstration 3) unsupervised feature extraction.
-I love whoever live in our planet.
+My research interest focuses on deep learnining in robotics. I love whoever live in our planet.
 
 
 
