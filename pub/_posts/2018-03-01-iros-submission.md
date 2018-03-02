@@ -1,6 +1,5 @@
 ---
-title: "Deep Reinforcement Learning from Visually Demonstrated 
-Pick-and-Place of Unclassified Objects"
+title: "Deep Reinforcement Learning from Visually Demonstrated Pick-and-Place of Unclassified Objects"
 header:
   teaser: tumbnails/iros2018.jpg
 conference: IROS2018
