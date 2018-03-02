@@ -5,10 +5,10 @@ header:
   overlay_image: header/2017_winter.jpg
 excerpt: "Intelligent Robotics"
 feature_row_pub:
-  - url: /pub/Robust-Visual-Odometry-via-Rigid-Motion-Segmentation-for-Dynamic-Environments/
+  - url: /pub/2018_iros_submission/
     image_path: tumbnails/MasterThesis.png
     alt: "test"
-    title: "test"
+    title: "Deep Reinforcement Learning from Visually Demonstrated Pick-and-Place of Unclassified Objects"
     excerpt: "test test test test"
   - url: /pub/Realtime-Rigid-Motion-Segmentation-using-Grid-based-Optical-Flow/
     image_path: /tumbnails/motionSeg.png
