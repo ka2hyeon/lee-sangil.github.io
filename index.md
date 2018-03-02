@@ -2,7 +2,7 @@
 layout: single
 author_profile: true
 header:
-  overlay_image: header/2013_japan.jpg
+  overlay_image: header/2013_winter.jpg
 excerpt: "Intelligent Robotics"
 feature_row_pub:
   - url: /pub/Robust-Visual-Odometry-via-Rigid-Motion-Segmentation-for-Dynamic-Environments/
