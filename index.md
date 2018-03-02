@@ -5,7 +5,7 @@ header:
   overlay_image: header/2017_winter.png
 excerpt: "Intelligent Robotics"
 feature_row_pub:
-  - url: /pub/2018_iros_submission/
+  - url: /pub/2018-iros-submission/
     image_path: tumbnails/iros2018.png
     alt: "test"
     title: "Deep Reinforcement Learning from Visually Demonstrated Pick-and-Place of Unclassified Objects"
