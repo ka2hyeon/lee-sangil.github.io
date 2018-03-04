@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "J.hyeon Park (Janyon Bahk)"
 title_separator          : "-"
 name                     : "J.hyeon Park"
-description              : "Robot learning"
+description              : "AI robotics"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -87,7 +87,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : https://www.facebook.com/profile.php?id=100003599101978&ref=bookmarks
   foursquare       :
   github           : https://github.com/ka2hyeon
   google_plus      : 
@@ -95,7 +95,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "ka2hyeon"
+  linkedin         : https://www.linkedin.com/in/jaehyeon-park-138196146/
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
